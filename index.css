@@ -265,6 +265,7 @@ body{
 }
 
 .share-article {
+  margin-bottom: 64px;
   min-width: 1170px;
   min-height: 173px;
   border-radius: 4px;
@@ -293,10 +294,12 @@ body{
   line-height: 1.5;
   letter-spacing: normal;
   color: #4a4a4a;
+  margin:0;
 
 }
 
 .share-article-cta {
+  padding-bottom: 35px;
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
