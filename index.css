@@ -308,3 +308,27 @@ body{
   letter-spacing: normal;
   color: #305b83;
 }
+
+.collaborate-section{
+  margin-bottom: 32px;
+}
+
+.collaborate-heading, .collaborate-subheading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.collaborate-heading {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.collaborate-subheading {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a4a4a;
+}
