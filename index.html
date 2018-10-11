@@ -157,7 +157,7 @@
             <img class="collaboration-item1-image" src="Assets/shutterstock-1.png" alt="collaboration image 1">
           </div>
           <div class="collaboration-item2">
-            <h3 class="collaboration-item2-heading">Some dummy event name here</h3>
+            <h3 class="collaboration-item2-heading" data-toggle="modal" data-target="#myModal">Some dummy event name here</h3>
             <p class="collaboration-item2-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</p>
             <div class="speaker-section">
               <div class="speaker-image">
@@ -189,7 +189,7 @@
             <img class="collaboration-item1-image" src="Assets/shutterstock-2.png" alt="collaboration image 2">
           </div>
           <div class="collaboration-item2">
-            <h3 class="collaboration-item2-heading">Some dummy event name here</h3>
+            <h3 class="collaboration-item2-heading" data-toggle="modal" data-target="#myModal">Some dummy event name here</h3>
             <p class="collaboration-item2-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</p>
             <div class="speaker-section">
               <div class="speaker-image">
@@ -221,7 +221,7 @@
             <img class="collaboration-item1-image" src="Assets/shutterstock-3.png" alt="collaboration image 3">
           </div>
           <div class="collaboration-item2">
-            <h3 class="collaboration-item2-heading">Some dummy event name here</h3>
+            <h3 class="collaboration-item2-heading" data-toggle="modal" data-target="#myModal">Some dummy event name here</h3>
             <p class="collaboration-item2-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</p>
             <div class="speaker-section">
               <div class="speaker-image">
@@ -252,14 +252,61 @@
     </div>
 
     <div class="row text-center collaboration-find-out-more">
-        <div class="col-sm-12">
-          <a href="#" target="_blank" class="btn">
-            <span class="btn-text text-center font-size-14">
-              FIND OUT MORE
-            </span>
-          </a>
+      <div class="col-sm-12">
+        <a href="#" target="_blank" class="btn">
+          <span class="btn-text text-center font-size-14">
+            FIND OUT MORE
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Some dummy event name here</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+
+            <div class="collaborate-icons modal-collaborate-icons">
+              <div class="calender modal-icons">
+                <i class="icon-calendar"></i>
+                <span class="collaborate-icons-text">29 Arpil, 2018</span>
+              </div>
+              <div class="time modal-icons">
+                <i class="icon-clock"></i>
+                <span class="collaborate-icons-text">12:00 to 13:30</span>
+              </div>
+              <div class="location">
+                <i class="icon-location-pin"></i>
+                <span class="collaborate-icons-text">Hyderabad</span>
+              </div>
+            </div>
+
+            <div class="speaker-section">
+              <div class="speaker-image">
+                <img class="collaboration-circle-image" src="Assets/shutterstock-1.png" alt="collaboration image 1">
+              </div>
+              <div class="speaker-details">
+                <p class="speaker-name">Speaker</p>
+                <p class="speaker-role">Jon Doe, Sr. Manager</p>
+              </div>
+            </div>
+            <p class="modal-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Aenean euismod bibendum laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+
         </div>
       </div>
+    </div>
 
   </div>
 </body>
