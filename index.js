@@ -7,6 +7,7 @@ $('.carousel').carousel({
 $(document).ready(function () {
     // on document ready
     checkitem();
+    $('.publish-btn').addClass('hide');
     $("#myCarousel").on("slid.bs.carousel", "", checkitem);
     // Storing orginal data
     $('#truncate-text').data('content', $('#truncate-text').html()+'');
@@ -27,6 +28,15 @@ $(document).ready(function () {
         $('.show-more').removeClass('hide');
         $('.flex-container').removeClass('set-height');
         $clamp(document.getElementById('truncate-text'), { clamp: 3, useNativeClamp: false});
+    });
+    $(".add-an-event-link").click(function(){
+        $('.submit-btn').addClass('hide');
+        $('.publish-btn').removeClass('hide');
+    });
+
+    $(".event-conducting-btn").click(function(){
+        $('.submit-btn').removeClass('hide');
+        $('.publish-btn').addClass('hide');
     });
 });
 
