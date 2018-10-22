@@ -497,3 +497,50 @@ body{
   width:16px;
   height:16px;
 }
+
+.event-conducting{
+  border-radius: 4px;
+  background-color: #e7ecf2;
+  margin-bottom: 72px;
+}
+
+.event-conducting-title {
+    font-family:'Open Sans';
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.event-conducting-description {
+    font-family:'Open Sans';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4a4a4a;
+    padding: 0 197px 10px;
+    margin: 0px;
+}
+
+.event-conducting-cta {
+  margin-bottom:20px;
+}
+
+.event-conducting-cta .btn{
+  background: white;
+}
+
+.event-conducting-cta .btn:hover{
+  background-color: #305b83;
+  color:white !important;
+}
