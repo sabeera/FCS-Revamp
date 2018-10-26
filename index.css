@@ -630,3 +630,9 @@ body{
   padding: 126px 36px !important;
   text-align: center;
 }
+
+.event-calender-icon {
+  position: absolute;
+  top: 8px;
+  right: 23px;
+}

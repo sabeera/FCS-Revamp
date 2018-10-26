@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
   <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css' rel='stylesheet'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
 </head>
 
 <body>
@@ -388,8 +391,10 @@
               <div class="row">
                 <div class="col-sm-6">
 
-                  <div class="form-group">
-                    <input type="text" class="form-control event-date-picker" placeholder="Date and Time" required />
+                  <div class="form-group event-date-time-picker">
+                    <input type="text" class="form-control" placeholder="Date and Time" required />
+                    <span class="event-calender-icon icon-calendar">
+                  </span>
                   </div>
                 </div>
                 <div class="col-sm-6">

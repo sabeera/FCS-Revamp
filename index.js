@@ -42,6 +42,13 @@ $(document).ready(function () {
     $(".event-description").keyup(function(){
         $(".event-description-length").text((200 - $(this).val().length));
     });
+    $('.event-date-time-picker').datetimepicker({
+        format:'DD/MM/YYYY h:mm a',
+        formatTime:'h:mm a',
+        formatDate:'DD/MM/YYYY'
+      });
+
+      $.datetimepicker.setDateFormatter('moment');
 });
 
 // check function
