@@ -38,6 +38,10 @@ $(document).ready(function () {
         $('.submit-btn').removeClass('hide');
         $('.publish-btn').addClass('hide');
     });
+
+    $(".event-description").keyup(function(){
+        $(".event-description-length").text((200 - $(this).val().length));
+    });
 });
 
 // check function
