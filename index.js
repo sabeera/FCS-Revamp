@@ -42,7 +42,7 @@ $(document).ready(function () {
     $(".event-description").keyup(function(){
         $(".event-description-length").text((200 - $(this).val().length));
     });
-    $('.event-date-time-picker').datetimepicker({
+    $('.event-date-time-picker,.event-date-picker').datetimepicker({
         format:'DD/MM/YYYY h:mm a',
         formatTime:'h:mm a',
         formatDate:'DD/MM/YYYY'

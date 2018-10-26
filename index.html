@@ -77,7 +77,6 @@
   </div>
 
   <div class="my-container">
-
     <div class="spotlight-section">
       <h3 class="spotlight-header">Spotlight</h3>
       <div class="flex-container">
@@ -378,7 +377,7 @@
                 <div class="col-sm-6">
 
                   <div class="form-group">
-                    <select class="form-control event-location" required >
+                    <select class="form-control event-location" required>
                       <option>Select a Location</option>
                       <option>Bengaluru</option>
                       <option>Hyderabad</option>
@@ -392,9 +391,9 @@
                 <div class="col-sm-6">
 
                   <div class="form-group event-date-time-picker">
-                    <input type="text" class="form-control" placeholder="Date and Time" required />
+                    <input type="text" class="form-control event-date-picker" placeholder="Date and Time" required />
                     <span class="event-calender-icon icon-calendar">
-                  </span>
+                    </span>
                   </div>
                 </div>
                 <div class="col-sm-6">
@@ -404,36 +403,37 @@
                   </div>
                 </div>
               </div>
+
+              <div class="modal-footer">
+                <button type="submit" class="btn submit-btn">SUBMIT</button>
+                <button type="submit" class="btn publish-btn" data-dismiss="modal">PUBLISH</button>
+              </div>
             </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn submit-btn" data-dismiss="modal" data-toggle="modal" data-target="#thankyou-modal">SUBMIT</button>
-            <button type="button" class="btn publish-btn" data-dismiss="modal">PUBLISH</button>
           </div>
         </div>
       </div>
     </div>
 
     <div class="modal fade" id="thankyou-modal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-  
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-  
-            <!-- Modal body -->
-            <div class="modal-body">
+      <div class="modal-dialog">
+        <div class="modal-content">
 
-                <h5>Thank you!</h5>
-                <p>We appreciate your Collaboration. You will soon be contacted by the admin to take this further.</p>
-  
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+
+            <h5>Thank you!</h5>
+            <p>We appreciate your Collaboration. You will soon be contacted by the admin to take this further.</p>
+
           </div>
         </div>
       </div>
 
-  </div>
+    </div>
 </body>
 
 </html>
