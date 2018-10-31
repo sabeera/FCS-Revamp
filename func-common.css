@@ -1,0 +1,46 @@
+/*DD Functional Common Styles*/
+*{
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+}
+.osr{
+  font-family: 'Open Sans', sans-serif;
+}
+.osl{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300
+}
+.ossb{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600 
+}
+.osb{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700
+}
+.comm-btn-default{
+  border: 1px solid #3b5083;
+  min-width:210px;
+  color:#3b5083;
+  font-weight:600;
+  font-size:14px;
+  border-radius:4px;
+}
+.comm-btn-default:hover{
+  background-color: #3b5083;
+  color:#fff;
+  font-weight:600 
+}
+.comm-btn-disabled{
+  border: 1px solid #9b9b9b;
+  min-width:210px;
+  color:#bfbfbf;
+  background-color: #e2e2e2;
+  font-weight:600;
+  font-size:14px;
+  border-radius:4px;
+}
+.comm-wrapper{
+  width:90%;
+  margin:0 auto;
+}
