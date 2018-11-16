@@ -1,0 +1,32 @@
+/* Make the image fully responsive */
+body{
+  font-family:'Open Sans';
+}
+
+.carousel-caption {
+ text-align: start;
+ left: 4%;
+}
+
+.carousel-collaborate-location {
+  font-family:'Open Sans';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.9;
+  letter-spacing: normal;
+  color: white;
+  vertical-align: middle;
+}
+
+.collaboration-container {
+  margin: 150px 55px 55px;
+}
+
+.collaboration-cta {
+  background-color:#305b83;
+  color: white;
+  padding: 10px;
+  margin-right: 100px;
+}
