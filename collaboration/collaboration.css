@@ -30,3 +30,17 @@ body{
   padding: 10px;
   margin-right: 100px;
 }
+
+.share-intrest-topic {
+  width: 440px;
+  margin-top: 60px;
+}
+
+.share-intrest-row{
+  margin-left: 2px;
+  margin-bottom: 50px;
+}
+
+.share-intrest-note{
+  font-size: 11px;
+}
