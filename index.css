@@ -636,3 +636,34 @@ body{
   top: 8px;
   right: 23px;
 }
+
+.search-icon {
+  position: absolute;
+  float: right;
+  right: 10px;
+  bottom: 5px;
+}
+
+.search-container {
+  width: 269px !important;
+  height: 32px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.search-input {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7c7c7c;
+  border-top-right-radius: inherit  !important;
+  border-bottom-right-radius: inherit  !important;
+}
+
+.search-form-inline {
+  padding-right:56px;
+  margin-left:auto;
+}
