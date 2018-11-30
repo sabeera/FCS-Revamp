@@ -85,3 +85,11 @@
   margin-top:64px;
   padding-top:64px;
 }
+
+/*Learn Page Css*/
+.toolmodal .close span{
+  font-size: 36px
+}
+.toolmodal .modal-footer{
+  margin:0 auto;
+}
