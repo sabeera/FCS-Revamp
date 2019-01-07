@@ -93,3 +93,37 @@
 .toolmodal .modal-footer{
   margin:0 auto;
 }
+
+/*Shared Page Styles*/
+.shared-article-modal-body{
+  padding: 0 24px 32px 24px;
+}
+.fz18{
+  font-size:18px;
+}
+.fz14{
+  font-size: 14px;
+}
+.fz12{
+  font-size:12px;
+}
+.shared-article-form input, .shared-article-form textarea{
+  width: 100%;
+  border-radius: 4px;
+  border:1px solid #a5a5a5;
+  font-family: 'Open Sans', sans-serif;
+  padding:10px 16px;
+}
+.shared-article-form input{
+  margin-bottom: 24px;
+}
+.shared-article-form input::placeholder, .shared-article-form textarea::placeholder{
+  font-style: italic;
+  color: #7c7c7c;
+}
+.uploadedfile-text{
+  color: #305b83;
+}
+.shared-article-note-text{
+  color: #a5a5a5;
+}
