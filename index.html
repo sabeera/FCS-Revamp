@@ -266,20 +266,35 @@
           </div>
 
           <!-- Modal body -->
-          <div class="modal-body">
-            <p class="ossb shared-article-header">Article Name</p>
+          <div class="modal-body shared-article-modal-body">
             <div class="row">
               <div class="col-md-3"><img class="shared-article-image" src='./Assets/ta-2.png'/></div>
-              <div class="col-md-9 ">
-                <div class="shared-article-content">Lorem Ipsum</div>
-                <div class="shared-article-submitted">Submitted By: First Name Last Name</div>
-                <button class="btn comm-btn-default">Submit</button>
+              <div class="col-md-9 shared-article-form">
+                <div>
+                  <input type="text" class="shared-article-content fz14" placeholder="Article Name"/>
+                </div>
+                <div>
+                  <textarea class="fz14"></textarea>
+                </div>
+                <p class="text-right">15/200</p>
+                <div>
+                  <input type="text" placeholder="Submitted By: Name" class="fz14">
+                </div>
+                <div>
+                  <input type="text" placeholder="Share a link" class="fz14"/>
+                </div>
+                <p class="text-center or-text fz18">OR</p>
+                <div class="upload-helpers clearfix">
+                  <div class="float-left fz14 uploadedfile-text">Upload File</div>
+                  <div class="float-right fz12">No File Chosen</div>
+                </div>
+                <p class="fz12 shared-article-note-text">Shared link or file uploaded will be submitted under review to the administrator</p>
               </div>
             </div>
-          </div>
-
-          
-
+            <div class="text-center">
+              <button class="btn comm-btn-default">Submit</button>
+            </div>
+          </div>        
         </div>
       </div>
     </div>
