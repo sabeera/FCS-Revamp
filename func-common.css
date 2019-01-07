@@ -44,3 +44,34 @@
   width:90%;
   margin:0 auto;
 }
+
+/*Footer Styles*/
+.footer-wrapper{
+  background: rgba(18, 66, 132, 0.1);
+  color: #4a4a4a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer-wrapper textarea{
+  width: 100%;
+  font-style: italic;
+}
+.footer-line{
+  margin-bottom:20px;
+  font-size: 10px;
+}
+.footer-line1{
+  margin-bottom:10px;
+  font-size: 12px
+}
+.footer-col2{
+  padding-bottom:8px;
+}
+.footer-col2 .head-text, .footer-col3 .head-text{
+  color: #305b83;
+  text-transform:uppercase;
+}
+.footer-col2 div, .footer-col2 p, .footer-col3 div, .footer-col3 p{
+  font-size:12px;
+}
+
