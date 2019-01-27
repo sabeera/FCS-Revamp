@@ -43,11 +43,13 @@
   margin-bottom: 30px;
 }
 .trending-articles-comp img{
-  padding: 0px
+  padding: 0px;
+  width: 33%;
 }
 .trending-articles-content{
   padding:10px 15px;
-  background-color: #fafafa
+  background-color: #fafafa;
+  width: 66%;
 }
 .ta-content-header{
   font-size:14px;
