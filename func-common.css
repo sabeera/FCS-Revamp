@@ -70,8 +70,13 @@
 .footer-col2 .head-text, .footer-col3 .head-text{
   color: #305b83;
   text-transform:uppercase;
+  font-weight: bold;
 }
 .footer-col2 div, .footer-col2 p, .footer-col3 div, .footer-col3 p{
   font-size:12px;
+  margin-bottom: 10px;
+}
+.footer-col2 p, .footer-col3 p{
+  margin-bottom: 0px;
 }
 
