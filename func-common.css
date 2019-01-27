@@ -55,6 +55,12 @@
 .footer-wrapper textarea{
   width: 100%;
   font-style: italic;
+  height:60px
+}
+.footer-wrapper #textarea-place{
+  position: absolute;
+  top: 70px;
+  right: 25px;
 }
 .footer-line{
   margin-bottom:20px;
