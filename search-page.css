@@ -1,0 +1,33 @@
+.search-page{
+  background: #f4f4f4;
+  padding-left: 55px;
+  padding-top: 32px;
+  min-height: 1000px
+}
+.search-header{
+  padding-bottom: 32px;
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.search-results-box{
+  background: #fff;
+  padding: 24px 0px 16px 16px;
+  width: 600px;
+  margin-bottom: 16px;
+}
+.search-results-title{
+  padding-bottom: 16px;
+  color: #305b83;
+  font-size: 16px;
+}
+.search-button{
+  font-size: 16px;
+  padding: 2px;
+  color: #4a4a4a;
+  border: 1px solid #4a4a4a;
+  border-radius: 4px;
+}
+.search-detail-date{
+  line-height: 30px;
+  padding-right: 24px
+}
