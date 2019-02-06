@@ -1,0 +1,63 @@
+.body-content {
+    position: relative;
+    top: 100px;
+}
+select {
+    height: 40px;
+    min-width: 280px;
+    border-color: #d2d2d2;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7c7c7c;
+    padding: 0 10px;
+}
+.textarea-arrow {
+    position: absolute;
+    top: 135px;
+    right: 10px;
+}
+.contact-textarea {
+    position: relative;
+    padding: 0;
+}
+.contact-textarea textarea {
+    height: 135px;
+    width: 100%;
+    margin-top: 20px;
+    border-color: #d2d2d2;
+    font-style: italic;
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #7c7c7c;
+}
+.focus-team .card {
+    /* text-align: center; */
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #c7c7c7;
+}
+.focus-team .card-header {
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #305b83;
+    text-align: center;
+}
+.focus-team .list-group-item {
+    background-color: #fafafa;
+    border: 1px solid #c7c7c7;
+}
+.focus-team .list-group-item>img{
+    margin: 0 25px;
+}
+.focus-team .list-group-item p {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+.focus-card-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
